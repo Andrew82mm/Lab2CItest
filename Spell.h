@@ -6,10 +6,9 @@
 class Spell {
 private:
     std::string type;
-    int manacost;
     int damage;
 public:
-    Spell(const std::string& type, int manacost, int damage);
+    Spell(const std::string& type, int damage);
     std::string getType() const;
     int getDamage() const;
     void setType(const std::string& newType);

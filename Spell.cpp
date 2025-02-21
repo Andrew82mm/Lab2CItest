@@ -1,7 +1,7 @@
 #include "Spell.h"
 #include "Character.h"
 
-Spell::Spell(const std::string& type, int manacost, int damage) : type(type), manacost(manacost), damage(damage) {}
+Spell::Spell(const std::string& type, int damage) : type(type), damage(damage) {}
 
 std::string Spell::getType() const {
     return type;
