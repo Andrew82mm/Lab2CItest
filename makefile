@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -g
-SRC = main.cpp Character.cpp Enemy.cpp Weapon.cpp Spell.cpp 
+SRC = main.cpp Character.cpp Weapon.cpp Spell.cpp 
 OBJ = $(SRC:.cpp=.o)
 EXEC = game
 $(EXEC): $(OBJ)
