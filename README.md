@@ -1,6 +1,29 @@
+**Labarotory work №2**  
+**Sergienko Andrey**  
+**Group**: b82  
+**Email**:  
+- Personal: andryman1024@gmail.com  
+- University: st135882@student.spbu.ru  
+
+---
+
+### How to Use the Program:
+1. **Requirements**:  
+    g++ 11.4.0
+    GNU Make 4.3
+   
+2. **Start**:  
+   Print `make`.
+   
+3. **Clean Up**:  
+   Run `make clean` to remove any temporary files created during execution.
+
+---
+
 ## Short Description
 
 This is the first version of my lab work. Currently, the project includes three main classes that implement the basic logic of character interactions and provide the ability to conduct battles.
+
 
 ## Project Development Plans
 
